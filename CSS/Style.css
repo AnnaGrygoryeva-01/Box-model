@@ -51,8 +51,25 @@ h2 {
      color: white;
 }
 
+p {
+    width: 1225px;
+    height: 76px;
+    background-color: #926339;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;;
+    padding: 12px;
+    text-align: center;
+    
+}
+
+.second-paragraph {
+    color: #926339;
+    background-color: white;
+}
+
 div p {
-    width: 405px;
+    width: 405.5px;
     height: 60px;
     background-color: #926339;
     color: white;
@@ -60,8 +77,14 @@ div p {
     font-size: 11px;;
     padding: 10px;
     margin: 0px;
+    text-align: initial;
 
 
     vertical-align: top;
     display: inline-block;
+}
+
+.middle-column {
+    background-color: white;
+    color: #926339;
 }
