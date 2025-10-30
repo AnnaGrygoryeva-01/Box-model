@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
 }
 
 header {
@@ -19,7 +20,6 @@ header {
 
 h1 {
     color: #926339;
-    font-family: 'Arial', sans-serif;
     font-weight: 590;
     margin: 0;
     padding-top: 10px;
@@ -27,7 +27,6 @@ h1 {
 
 h2 {
     color: #926339;
-    font-family: 'Arial', sans-serif;
     font-size: small;
     font-weight: 400;
     margin: 0;
@@ -52,11 +51,11 @@ h2 {
 }
 
 p {
-    width: 1225px;
+    
     height: 76px;
+    display: inline-block;
     background-color: #926339;
     color: white;
-    font-family: 'Arial', sans-serif;
     font-size: 11px;;
     padding: 12px;
     text-align: center;
@@ -68,20 +67,26 @@ p {
     background-color: white;
 }
 
-div p {
-    width: 405.5px;
-    height: 60px;
-    background-color: #926339;
-    color: white;
-    font-family: 'Arial', sans-serif;
-    font-size: 11px;;
+.parent1 {
+    font-size: 0px;
+    
+}
+
+.column {
+    font-size: 11px;
+    width: 33.3%;
     padding: 10px;
     margin: 0px;
     text-align: initial;
-
-
+    height: 60px;
     vertical-align: top;
     display: inline-block;
+    box-sizing: border-box;
+}
+
+.child1 {
+    background-color: #926339;
+    color: white;
 }
 
 .middle-column {
