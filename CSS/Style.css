@@ -1,98 +1,132 @@
 * {
+  /* Box Model */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  /* Typography */
   font-family: 'Arial', sans-serif;
 }
 
 header {
-    height: 800px;
-    background-color: bisque;
-    background-image:url(../assets/images/background.jpg);
-    background-size: cover;
-    background-position: right 0 top 800px;
+  /* Box Model */
+  display: grid;
+  place-items: center; 
+  height: 800px;
+  
+  /* Typography */
+  text-align: center;
 
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-    display: grid;
-    place-items: center;
+  /* Visual */
+  background-color: bisque;
+  background-image: url(../assets/images/background.jpg);
+  background-size: cover;
+  background-position: right 0 top 800px;
 }
 
 h1 {
-    color: #926339;
-    font-size: 40px;
-    font-weight: 600;
-    margin: 0;
-    padding-top: 0px;
+  /* Box Model */
+  margin: 0;
+
+  /* Typography */
+  color: #926339;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 h2 {
-    color: #926339;
-    font-size: 17px;
-    font-weight: 300;
-    margin: 0;
-    padding-top: 10px;
+  /* Box Model */
+  margin: 0;
+  padding-top: 10px;
+
+  /* Typography */
+  color: #926339;
+  font-size: 17px;
+  font-weight: 300;
 }
 
 .read-more-btn {
-    margin-top: 16px;
-    padding: 10px 20px;
-    font-size: 17px;
-    color: #926339;
-    background-color: transparent;
-    border: 1px solid #926339;
-    border-radius: 8px;
-    cursor: pointer;
+  /* Box Model */
+  margin-top: 16px;
+  padding: 10px 20px;
+  border: 1px solid #926339;
+  border-radius: 8px;
 
+  /* Typography */
+  font-size: 17px;
+  color: #926339;
+  
+  /* Visual */
+  background-color: transparent;
+
+  /* Miscellaneous */
+  cursor: pointer;
 }
 
 .read-more-btn:hover {
-     background-color: #926339;
-     color: white;
+  /* Typography */
+  color: white;
+
+  /* Visual */
+  background-color: #926339;
 }
 
 p {
-    
-    height: 80px;
-    display: inline-block;
-    background-color: #926339;
-    color: white;
-    font-size: 12px;
-    font-weight: 10;
-    padding: 12px;
-    text-align: center;
-    
+  /* Box Model */
+  display: inline-block;
+  height: 80px;
+  padding: 12px;
+
+  /* Typography */
+  color: white;
+  font-size: 12px;
+  font-weight: 100; 
+  text-align: center;
+
+  /* Visual */
+  background-color: #926339;
 }
 
 .second-paragraph {
-    color: #926339;
-    background-color: white;
+  /* Typography */
+  color: #926339;
+  
+  /* Visual */
+  background-color: white;
 }
 
 .parent1 {
-    font-size: 0px;
-    
+  /* Typography */
+  font-size: 0px; 
 }
 
 .column {
-    font-size: 12px;
-    width: 33.3%;
-    padding: 10px;
-    margin: 0px;
-    text-align: initial;
-    height: 60px;
-    vertical-align: top;
-    display: inline-block;
-    box-sizing: border-box;
+  /* Box Model */
+  display: inline-block;
+  vertical-align: top;
+  width: 33.3%;
+  height: 60px;
+  padding: 10px;
+  margin: 0px;
+  box-sizing: border-box;
+  
+  /* Typography */
+  font-size: 12px;
+  text-align: initial;
 }
 
 .child1 {
-    background-color: #926339;
-    color: white;
+  /* Typography */
+  color: white;
+  
+  /* Visual */
+  background-color: #926339;
 }
 
-.middle-column {
-    background-color: white;
-    color: #926339;
+.child2 {
+  /* Typography */
+  color: #926339;
+  
+  /* Visual */
+  background-color: white;
 }
