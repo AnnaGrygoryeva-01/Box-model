@@ -21,44 +21,45 @@ header {
 
 h1 {
     color: #926339;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 600;
-    margin: 0;
-    padding-top: 10px;
-}
-
-h2 {
-    color: #926339;
-    font-size: 14px;
-    font-weight: 400;
     margin: 0;
     padding-top: 0px;
 }
 
-#read-more-btn {
-    margin-top: 20px;
+h2 {
+    color: #926339;
+    font-size: 17px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.read-more-btn {
+    margin-top: 16px;
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 17px;
     color: #926339;
     background-color: transparent;
     border: 1px solid #926339;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
 
 }
 
-#read-more-btn:hover {
+.read-more-btn:hover {
      background-color: #926339;
      color: white;
 }
 
 p {
     
-    height: 76px;
+    height: 80px;
     display: inline-block;
     background-color: #926339;
     color: white;
-    font-size: 11px;;
+    font-size: 12px;
+    font-weight: 10;
     padding: 12px;
     text-align: center;
     
@@ -75,7 +76,7 @@ p {
 }
 
 .column {
-    font-size: 11px;
+    font-size: 12px;
     width: 33.3%;
     padding: 10px;
     margin: 0px;
